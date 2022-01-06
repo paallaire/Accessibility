@@ -1,0 +1,31 @@
+@tailwind base;
+
+@import "./abstracts/functions";
+@import "./abstracts/variables";
+@import "./abstracts/debug";
+
+/* base
+// -------------------------------------------- */
+@import "./base/fonts";
+@import "./base/tags";
+@import "../icomoon/style.css";
+
+@tailwind components;
+
+/* objects
+// -------------------------------------------- */
+@import "./objects/scrollbar";
+
+/* components
+// -------------------------------------------- */
+
+/* playground
+// -------------------------------------------- */
+
+/* vendors
+// -------------------------------------------- */
+@import "./vendors/alpine";
+
+/* utilities
+// -------------------------------------------- */
+@tailwind utilities;

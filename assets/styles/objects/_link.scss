@@ -1,0 +1,19 @@
+/* link
+-------------------------------------------- */
+.link {
+  @extend %transition-basic;
+  @apply inline-flex items-center font-bold;
+  @apply hover:underline;
+}
+
+.link--primary {
+  @apply text-red-1;
+}
+
+.link--secondary {
+  @apply text-black;
+}
+
+.link--orange {
+  @apply text-orange-1;
+}

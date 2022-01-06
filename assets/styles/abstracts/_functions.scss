@@ -1,0 +1,4 @@
+// https://vw.joealden.com/
+@function clampGetRelativeSize($maxFontSize, $maxBreakpoint) {
+  @return (($maxFontSize / $maxBreakpoint) * 100) * 1vw;
+}

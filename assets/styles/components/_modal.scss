@@ -1,0 +1,22 @@
+/* Modal (alpine)
+-------------------------------------------- */
+
+.c-modal {
+  @apply fixed z-100 inset-0;
+
+  &__wrapper {
+    @apply flex items-center justify-center min-h-screen;
+  }
+
+  &__overlay {
+    @apply fixed inset-0 bg-black/60 cursor-pointer;
+  }
+
+  &__content {
+    @apply bg-white max-w-100 w-full p-5 relative z-100 overflow-hidden max-h-[80vh] overflow-y-visible;
+  }
+
+  h2:focus {
+    border: 10px solid red;
+  }
+}

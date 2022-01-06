@@ -1,0 +1,36 @@
+/* inputfile
+-------------------------------------------- */
+.c-inputfile {
+  @apply inline-block;
+
+  &__input {
+    @apply hidden;
+  }
+
+  &__label {
+    @apply flex items-center cursor-pointer;
+  }
+
+  &__icon {
+    @apply mr-4 w-20 bg-blue-1 p-2 text-white rounded-full;
+  }
+
+  &__meta {
+  }
+
+  &__meta-name {
+    @apply text-10 font-bold;
+  }
+
+  &__meta-size {
+    @apply text-8;
+  }
+}
+
+.c-inputfile--hero {
+  @apply bg-red-1/60 p-4 rounded-base w-80;
+
+  .c-inputfile__icon {
+    @apply bg-red-1;
+  }
+}

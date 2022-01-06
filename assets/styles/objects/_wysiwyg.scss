@@ -1,0 +1,17 @@
+/* article
+-------------------------------------------- */
+.wysiwyg-article {
+  font-size: clamp(12px, clampGetRelativeSize(16, 960), 16px);
+}
+
+/* simple
+-------------------------------------------- */
+.wysiwyg-simple {
+  font-size: clamp(10px, clampGetRelativeSize(14, 960), 14px);
+}
+
+/* hero
+-------------------------------------------- */
+.wysiwyg-hero {
+  font-size: clamp(16px, clampGetRelativeSize(20, 960), 20px);
+}

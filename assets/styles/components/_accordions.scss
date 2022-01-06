@@ -1,0 +1,16 @@
+.c-accordion {
+  &__header-button {
+    @apply bg-blue-1 flex items-center w-full p-2 text-white;
+  }
+
+  &__header-title {
+  }
+
+  &__header-icon {
+    @apply w-7px ml-auto;
+  }
+
+  &__content {
+    @apply bg-green-1 p-2 text-white;
+  }
+}

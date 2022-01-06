@@ -1,0 +1,12 @@
+%transition-basic {
+  @apply transition duration-200 ease-in-out;
+}
+
+.t-base {
+  @extend %transition-basic;
+}
+
+.t-opacity {
+  @extend %transition-basic;
+  @apply hover:opacity-75;
+}

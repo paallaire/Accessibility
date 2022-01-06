@@ -1,0 +1,36 @@
+{
+  "name": "accessibility",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "hot": "mix --hot",
+    "prod": "mix --production"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-tailwindcss": "^1.17.2",
+    "laravel-mix": "^6.0.39",
+    "sass": "^1.45.0",
+    "sass-loader": "^12.4.0"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "@tailwindcss/forms": "^0.3.4",
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "@tailwindcss/typography": "~0.4.1",
+    "alpinejs": "^3.7.0",
+    "axios": "^0.24.0",
+    "core-js": "^3.19.3",
+    "lodash": "^4.17.21",
+    "postcss-pxtorem": "^6.0.0",
+    "tailwind-css-variables": "^3.0.1",
+    "tailwindcss": "^2.2.19"
+  }
+}

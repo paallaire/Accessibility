@@ -1,0 +1,76 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-logo-en {
+  width: 1.3447265625em;
+}
+
+.icon-facebook {
+  width: 0.5390625em;
+}
+
+.icon-arrow-right {
+  width: 1.0380859375em;
+}
+
+.icon-arrow-left {
+  width: 1.0380859375em;
+}
+
+.icon-logo-fr {
+  width: 1.3359375em;
+}
+
+.icon-rcm {
+  width: 1.43359375em;
+}
+
+.icon-check {
+  width: 1.4013671875em;
+}
+
+.icon-cloak {
+  width: 1.54296875em;
+}
+
+.icon-doc {
+  width: 0.736328125em;
+}
+
+.icon-radar {
+  width: 1.1162109375em;
+}
+
+.icon-doc2 {
+  width: 1.0966796875em;
+}
+
+.icon-doc3 {
+  width: 2.4990234375em;
+}
+
+.icon-grid {
+  width: 1.146484375em;
+}
+
+.icon-check2 {
+  width: 1.0087890625em;
+}
+
+.icon-yt {
+  width: 1.427734375em;
+}

@@ -1,0 +1,22 @@
+{
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        },
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[scss]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[twig]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "mblode.twig-language-2"
+    },
+    "cSpell.words": [
+        "frctl",
+        "laravel",
+        "tailwindcss"
+    ],
+}

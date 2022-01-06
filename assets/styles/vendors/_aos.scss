@@ -1,0 +1,13 @@
+// AOS
+// ==========================================================================
+
+// animation
+// --------------------------------------------
+[data-aos="reveal-up"] {
+  @apply translate-y-full overflow-hidden;
+  transition-property: transform;
+
+  &.aos-animate {
+    @apply translate-y-0;
+  }
+}

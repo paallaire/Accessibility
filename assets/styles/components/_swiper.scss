@@ -1,0 +1,44 @@
+/* base
+-------------------------------------------- */
+.swiper {
+  @apply opacity-0;
+  @apply transition duration-100 ease-in;
+
+  &.swiper-initialized {
+    @apply opacity-100;
+  }
+
+  &.swiper-visible {
+    @apply overflow-visible #{!important};
+  }
+}
+
+/* swiper-default
+-------------------------------------------- */
+.c-swiper-default {
+  // .swiper-slide {
+  //   @apply h-auto;
+  //   align-self: stretch;
+  // }
+}
+
+/* swiper-custom
+-------------------------------------------- */
+.c-swiper-custom {
+  @apply overflow-visible #{!important};
+
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    @apply p-1 text-white bg-green-1;
+    @apply transition duration-100 ease-in;
+    @apply hover:text-blue-1;
+
+    &:hover {
+      @apply text-blue-1;
+    }
+
+    &.swiper-button-disabled {
+      @apply opacity-50 pointer-events-none;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// Generate Duration && Delay
+[data-reveal] {
+  @for $i from 1 through 60 {
+    &[data-reveal][data-reveal-duration="#{$i * 50}"] {
+      transition-duration: #{$i * 50}ms;
+    }
+
+    &[data-reveal][data-reveal-delay="#{$i * 50}"] {
+      transition-delay: 0;
+
+      &.reveal-animate {
+        transition-delay: #{$i * 50}ms;
+      }
+    }
+  }
+}

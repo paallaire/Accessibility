@@ -1,0 +1,35 @@
+/* heading
+-------------------------------------------- */
+%heading {
+  @apply font-inter font-bold leading-none text-gray-1;
+}
+
+.h1 {
+  @extend %heading;
+  font-size: clamp(40px, clampGetRelativeSize(80, 1920), 80px);
+}
+
+.h2 {
+  @extend %heading;
+  font-size: clamp(32px, clampGetRelativeSize(70, 1920), 70px);
+}
+
+.h3 {
+  @extend %heading;
+  font-size: clamp(28px, clampGetRelativeSize(64, 1920), 64px);
+}
+
+.h4 {
+  @extend %heading;
+  font-size: clamp(24px, clampGetRelativeSize(50, 1920), 50px);
+}
+
+.h5 {
+  @extend %heading;
+  font-size: clamp(20px, clampGetRelativeSize(40, 1920), 40px);
+}
+
+.h6 {
+  @extend %heading;
+  font-size: clamp(18px, clampGetRelativeSize(32, 1920), 32px);
+}

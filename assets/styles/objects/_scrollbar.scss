@@ -1,0 +1,27 @@
+.default-scrollbar {
+  /* total width */
+  &::-webkit-scrollbar {
+    @apply bg-white w-[16px];
+  }
+
+  /* background of the scrollbar except button or resizer */
+  &::-webkit-scrollbar-track {
+    @apply bg-white;
+  }
+  &::-webkit-scrollbar-track:hover {
+    @apply bg-[#f4f4f4];
+  }
+
+  /* scrollbar itself */
+  &::-webkit-scrollbar-thumb {
+    @apply bg-[#babac0] rounded-[16px] border-[5px] border-solid border-white;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    @apply bg-[#a0a0a5] border-[4px] border-solid border-[#f4f4f4];
+  }
+
+  /* set button(top and bottom of the scrollbar) */
+  &::-webkit-scrollbar-button {
+    @apply hidden;
+  }
+}

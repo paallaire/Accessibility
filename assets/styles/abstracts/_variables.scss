@@ -1,0 +1,14 @@
+/* hamburger
+-------------------------------------------- */
+$hamburger-padding-x: 0;
+$hamburger-padding-y: 0;
+$hamburger-layer-width: 22px;
+$hamburger-layer-height: 2px;
+$hamburger-layer-spacing: 4px;
+$hamburger-layer-color: #ff4000;
+$hamburger-layer-border-radius: 0;
+$hamburger-hover-opacity: 1;
+$hamburger-active-layer-color: $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
+
+$hamburger-types: (slider);

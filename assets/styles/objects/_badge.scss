@@ -1,0 +1,17 @@
+/* badge
+-------------------------------------------- */
+.badge {
+  @apply inline-flex items-center leading-normal rounded-base py-1 px-2 font-inter font-semibold text-xs;
+}
+
+.badge--blue {
+  @apply bg-blue-1 text-white;
+}
+
+.badge--orange {
+  @apply bg-orange-1 text-white;
+}
+
+.badge--green {
+  @apply bg-green-1 text-white;
+}

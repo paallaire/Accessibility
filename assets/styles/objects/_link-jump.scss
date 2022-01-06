@@ -1,0 +1,25 @@
+/* link-jump
+-------------------------------------------- */
+.link-jump {
+  @apply inline-flex cursor-pointer relative overflow-hidden;
+
+  span {
+    @apply transition duration-200 ease-linear;
+  }
+
+  &:before {
+    content: attr(data-text);
+    @apply h-full absolute top-0 left-0 translate-y-full;
+    @apply transition duration-200 ease-linear;
+  }
+
+  &:hover {
+    span {
+      @apply -translate-y-full;
+    }
+
+    &:before {
+      @apply translate-y-0;
+    }
+  }
+}

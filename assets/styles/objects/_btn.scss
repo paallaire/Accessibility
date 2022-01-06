@@ -1,0 +1,16 @@
+/* btn
+-------------------------------------------- */
+.btn {
+  @extend %transition-basic;
+  @apply inline-flex items-center leading-normal rounded-base px-5 py-[13px] font-inter font-semibold text-base;
+}
+
+.btn--primary {
+  @apply bg-red-1 text-white;
+  @apply hover:bg-red-1/60;
+}
+
+.btn--secondary {
+  @apply bg-black text-white;
+  @apply hover:bg-black/60;
+}

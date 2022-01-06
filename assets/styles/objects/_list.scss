@@ -1,0 +1,26 @@
+.list-unordered {
+  @apply list-outside;
+
+  li {
+    @apply relative pl-4;
+
+    &:before {
+      @apply block absolute top-7px left-0 w-2 h-2 bg-red-1 rounded-full;
+      content: "";
+    }
+  }
+}
+
+.list-ordered {
+  counter-reset: listCounter;
+
+  li {
+    @apply relative pl-7;
+    counter-increment: listCounter;
+
+    &:before {
+      @apply block absolute top-0 left-0 w-8 font-bold;
+      content: "0" counter(listCounter);
+    }
+  }
+}

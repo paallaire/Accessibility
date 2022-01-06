@@ -1,0 +1,16 @@
+/* bordered
+-------------------------------------------- */
+.btn-bordered {
+  @extend %transition-basic;
+  @apply inline-flex items-center leading-normal rounded-base px-5 py-[13px] font-inter font-semibold text-base border-2 border-solid text-center;
+}
+
+.btn-bordered--primary {
+  @apply text-red-1 border-red-1;
+  @apply hover:bg-red-1 hover:text-white;
+}
+
+.btn-bordered--secondary {
+  @apply text-black border-black;
+  @apply hover:bg-black hover:text-white;
+}

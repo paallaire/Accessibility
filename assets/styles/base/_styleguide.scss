@@ -1,0 +1,20 @@
+.sg-container-md {
+  @apply max-w-[1000px] px-4 mx-auto;
+}
+
+.sg-container-padding {
+  @apply px-4 py-5;
+  @apply lg:px-20;
+}
+
+.sg-title {
+  @apply text-20 font-bold my-4 text-blue-1;
+}
+
+.sg-subtitle {
+  @apply text-16 font-bold my-4 text-blue-1;
+}
+
+.sg-note {
+  @apply text-8 font-semibold my-4 p-4 border-solid border-current border-b bg-red-1 text-white;
+}
