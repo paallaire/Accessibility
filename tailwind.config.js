@@ -11,7 +11,7 @@ module.exports = {
     './assets/**/*.jsx',
     './assets/**/*.ts',
     './assets/**/*.vue',
-    './docs/*.html',
+    './docs/indexcd .html',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
